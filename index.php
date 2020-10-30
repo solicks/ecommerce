@@ -6,6 +6,8 @@ include("functions/functions.php");
 ?>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
         <title>My Online Shop</title>
         <link rel="stylesheet" href="styles/style.css" media="all" />
     </head>
@@ -71,7 +73,7 @@ include("functions/functions.php");
                     <?php cart(); ?>
                     
                     <div id="shopping_cart">
-                        <span style="float:right; font-size:17px; padding:5px; line-height:40px;">
+                        <span style="float:right; padding:5px; line-height:40px;">
                         
                         <?php 
                             if(isset($_SESSION['customer_email'])) {

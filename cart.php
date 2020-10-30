@@ -7,6 +7,8 @@ include("functions/functions.php");
 ?>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Online Shop</title>
         <link rel="stylesheet" href="styles/style.css" media="all" />
     </head>
@@ -154,6 +156,8 @@ include("functions/functions.php");
                                     </td>
                                     <td><input type="text" size="4" name="qty" value="<?php echo $_SESSION['qty'];?>"/></td>
                                     <?php 
+                                        $con = mysqli_connect("localhost", "root", "", "ecommerce");
+
                                         if(isset($_POST['update_cart'])) {
 
                                             $qty = $_POST['qty'];
@@ -164,7 +168,7 @@ include("functions/functions.php");
 
                                             $_SESSION['qty'] = $qty;
 
-                                            $total = $total * $qty;
+                                            $total = $total*$qty;
                                         }
                                     
                                     ?>    

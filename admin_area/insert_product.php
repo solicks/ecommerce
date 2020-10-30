@@ -14,6 +14,8 @@ else {
 
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Inserting Product</title>
         <script src='https://cdn.tiny.cloud/1/3gm5azhsotem05iwoc7ud1eje67xyjdoq8euv50dtyctztbj/tinymce/5/tinymce.min.js' referrerpolicy="origin">
   </script>

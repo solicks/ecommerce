@@ -254,3 +254,304 @@ body {
   background: grey;
   clear: both;
 }
+
+@media (max-width: 767px) {
+  .main_wrapper {
+    width: 900px;
+    height: auto;
+    margin: auto;
+  }
+
+  .header_wrapper {
+    width: 900px;
+    height: 120px;
+    margin: auto;
+  }
+
+  .menubar {
+    width: 900px;
+    height: 40px;
+  }
+
+  #menu {
+    padding: 0;
+    margin: 0;
+    line-height: 40px;
+    float: left;
+  }
+
+  #menu a {
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    margin: 4px;
+    font-size: 16px;
+    font-family: COMIC SANS MS;
+  }
+
+  #form {
+    float: right;
+    padding-right: 6px;
+    line-height: 40px;
+  }
+
+  .content_wrapper {
+    width: 900px;
+    margin: auto;
+  }
+
+  #content_area {
+    width: 700px;
+    float: left;
+  }
+
+  #sidebar {
+    width: 150px;
+    float: right;
+  }
+
+  #sidebar_title {
+    font-size: 20px;
+    font-family: arial;
+    padding: 10px;
+    text-align: center;
+  }
+
+  #cats a {
+    color: orange;
+    padding: 6px;
+    margin: 4px;
+    text-align: left;
+    font-size: 16px;
+    font-family: comic sans Ms;
+    text-decoration: none;
+  }
+
+  #products_box {
+    width: 700px;
+    text-align: center;
+    margin-left: 25px;
+    margin-bottom: 9px;
+  }
+
+  #single_product {
+    float: left;
+    margin-left: 25px;
+    padding: 9px;
+  }
+
+  #shopping_cart {
+    height: 45px;
+  }
+
+  #footer {
+    width: 900px;
+    height: 90px;
+  }
+}
+
+@media (min-width: 651px) {
+}
+
+@media (max-width: 650px) {
+  .main_wrapper {
+    width: 800px;
+    height: auto;
+    margin: auto;
+  }
+
+  .header_wrapper {
+    width: 800px;
+    height: 100px;
+    margin: auto;
+  }
+
+  .menubar {
+    width: 800px;
+    height: 35px;
+  }
+
+  #menu {
+    padding: 0;
+    margin: 0;
+    line-height: 40px;
+    float: left;
+  }
+
+  #menu a {
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+    margin: 3px;
+    font-size: 14px;
+    font-family: COMIC SANS MS;
+  }
+
+  #form {
+    float: right;
+    padding-right: 5px;
+    line-height: 35px;
+  }
+
+  .content_wrapper {
+    width: 800px;
+    margin: auto;
+  }
+
+  #content_area {
+    width: 650px;
+    float: left;
+  }
+
+  #sidebar {
+    width: 120px;
+    float: right;
+  }
+
+  #sidebar_title {
+    background: white;
+    color: black;
+    font-size: 18px;
+    font-family: arial;
+    padding: 8px;
+    text-align: center;
+  }
+
+  #cats a {
+    color: orange;
+    padding: 5px;
+    margin: 3px;
+    text-align: left;
+    font-size: 14px;
+    font-family: comic sans Ms;
+    text-decoration: none;
+  }
+
+  #products_box {
+    width: 650px;
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 8px;
+  }
+
+  #single_product {
+    float: left;
+    margin-left: 20px;
+    padding: 8px;
+  }
+
+  #shopping_cart {
+    height: 40px;
+  }
+
+  #footer {
+    width: 800px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 400px) {
+  .main_wrapper {
+    width: 700px;
+    height: auto;
+    margin: auto;
+  }
+
+  .header_wrapper {
+    width: 700px;
+    height: 90px;
+    margin: auto;
+  }
+
+  #logo {
+    float: left;
+  }
+
+  #banner {
+    float: right;
+  }
+
+  .menubar {
+    width: 700px;
+    height: 35px;
+  }
+
+  #menu {
+    padding: 0;
+    margin: 0;
+    line-height: 40px;
+    float: left;
+  }
+
+  #menu a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin: 2px;
+    font-size: 12px;
+    font-family: COMIC SANS MS;
+  }
+
+  #form {
+    float: right;
+    padding-right: 4px;
+    line-height: 30px;
+  }
+
+  .content_wrapper {
+    width: 700px;
+    margin: auto;
+    background: pink;
+  }
+
+  #content_area {
+    width: 600px;
+    float: left;
+  }
+
+  #sidebar {
+    width: 100px;
+    float: right;
+  }
+
+  #sidebar_title {
+    background: white;
+    color: black;
+    font-size: 16px;
+    font-family: arial;
+    padding: 7px;
+    text-align: center;
+  }
+
+  #cats a {
+    color: orange;
+    padding: 5px;
+    margin: 3px;
+    text-align: left;
+    font-size: 12px;
+    font-family: comic sans Ms;
+    text-decoration: none;
+  }
+
+  #products_box {
+    width: 600px;
+    text-align: center;
+    margin-left: 15px;
+    margin-bottom: 7px;
+  }
+
+  #single_product {
+    float: left;
+    margin-left: 15px;
+    padding: 7px;
+  }
+
+  #shopping_cart {
+    height: 30px;
+  }
+
+  #footer {
+    width: 700px;
+    height: 70px;
+  }
+}

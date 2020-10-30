@@ -42,7 +42,7 @@ $address = $row_customer['customer_address'];
                             </tr>
                             <tr>
                                 <td align="right"> Customer image:</td>
-                                <td><input type="file" name="c_image"/><img scr="../customers/customer_images/<?php echo $image; ?>" width="100px" height="100px" /></td>
+                                <td><input type="file" name="c_image"/><img scr="customer_images/<?php echo $image; ?>" width="100px" height="100px" /></td>
                             </tr>
                             <tr>
                                 <td align="right"> Customer Country</td>
@@ -99,7 +99,7 @@ $address = $row_customer['customer_address'];
         $c_contact = $_POST['c_contact'];
         $c_address = $_POST['c_address'];
 
-        move_uploaded_file($c_image_tmp,"../customers/customer_images/$c_image");
+        move_uploaded_file($c_image_tmp,"customer_images/$c_image");
 
         $update_c = "update customers set customer_name='$c_name', customer_email='$c_email', 
         customer_pass='$c_pass', customer_city='$c_city', customer_contact='$c_contact', customer-address='$c_address', 
